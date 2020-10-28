@@ -51,7 +51,6 @@ Kom ihåg att testa att den fungerar!
 
 Skriv istället `randomInt(n)` som returnerar ett heltal mellan 0 och **n**.
 </details>
-<br/>
 
 Skapa en global variabel `secretNumber` och sätt värdet till random tal med hjälp av funktionen du just skapat.
 
@@ -79,7 +78,6 @@ function getUserGuess() {
 }
 ````
 </details>
-<br/>
 
 Kom ihåg att testa att den funkar!
 
@@ -110,7 +108,6 @@ Vi har inga knappar på den här sidan. Vi vill att något ska hända när anvä
 })
 ````
 </details>
-<br/>
 
 ### 4. Ge feedback till användaren
 Vi vill berätta för användaren om gissningen är för hög eller för låg.
@@ -123,9 +120,6 @@ Skriv en funktion `setMessage(msg)` som sätter texten på message-elementet til
     document.getElementById('message').innerText = 'foooo'
 ````
 </details>
-<br/>
-
-
 
 **Sätt nu lämpligt meddelande beroende på om användarens gissning är för hög, för låg eller rätt**
 
@@ -145,7 +139,6 @@ Vi vill såklart att input-fältet ska rensas efter varje gissning. Skriv en fun
     document.getElementById('user-input').value = ''
 ````
 </details>
-<br/>
 
 Anropa den efter varje gissning.
 
@@ -174,7 +167,6 @@ Använd array-metoden `push`
     console.log(arr)
 ````
 </details>
-<br/>
 
 ### Redovisa hur många gissningar som krävdes
 När användaren till slut lyckas, skriv ut hur många gissningar som behövdes.
@@ -188,7 +180,6 @@ Använd string template literals!
     const myString = `Jag är ${age} år gammal`
 ````
 </details>
-<br/>
 
 ### Färgkoda gissningarna
 Gör så att alla gjorda gissningar som är för låga blir gröna.
