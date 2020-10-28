@@ -184,11 +184,11 @@ Använd string template literals!
 </details>
 
 ### Färgkoda gissningarna
-Gör så att alla gjorda gissningar som är för låga blir gröna.
-Gör så att alla gjorda gissningar som är för höga blir röda.
+Gör så att alla gjorda gissningar som är för låga blir <span style="color:green">gröna</span>.
+Gör så att alla gjorda gissningar som är för höga blir <span style="color:red">röda</span>.
 
-### Visa en knapp för att nollställa när du vunnit
-...
+### Visa en knapp för att nollställa (börja om) när du vunnit
+Självförklarande?
 
 ### Behåll high (low) score mellan körningarna
 Vad är lägsta antalet gissningar hittills?
@@ -197,7 +197,7 @@ Visa på sidan.
 ### Använd LocalStorage för att spara scores även när du stängt ner browsern
 Just nu nollställs allt varje gång du refreshar sidan.
 
-Läs på om hur du kan använda LocalStorage för att spara data i browsern även när du stängt ner den.
+Läs på om hur du kan använda [LocalStorage](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/) för att spara data i browsern även när du stängt ner den.
 
 ### Kom på något eget!
 Det finns ännu fler saker att lägga till. Kom på något själv. **Fantasin sätter gränserna!**
