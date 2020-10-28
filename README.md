@@ -146,7 +146,7 @@ Anropa den efter varje gissning.
 
 ## Fördjupning
 
-:tada:
+:tada: :tada: :tada:
 
 Grattis! Nu är den grundläggande logiken på plats. Men det finns massor av saker att fördjupa sig i.
 
