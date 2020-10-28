@@ -146,9 +146,13 @@ Anropa den efter varje gissning.
 
 ## Fördjupning
 
+:tada:
+
 Grattis! Nu är den grundläggande logiken på plats. Men det finns massor av saker att fördjupa sig i.
 
-**Innan du fördjupar dig, kolla med din studiegrupp ifall det är någon som behöver hjälp.**
+**Innan du fördjupar dig:**
+1. Kolla med din studiegrupp ifall det är någon som behöver hjälp / fastnat
+2. Om det är något du själv är osäker på, lyft till diskussion med din grupp.
 
 Här följer ett gäng förslag på fördjupningar i en ungefärlig ökande svårighetsgrad.
 
@@ -184,17 +188,17 @@ Använd string template literals!
 </details>
 
 ### Färgkoda gissningarna
-Gör så att alla gjorda gissningar som är för låga blir <span style="color:green">gröna</span>.
-Gör så att alla gjorda gissningar som är för höga blir <span style="color:red">röda</span>.
+Gör så att alla gjorda gissningar som är för låga blir **gröna**.
+Gör så att alla gjorda gissningar som är för höga blir **röda**.
 
 ### Visa en knapp för att nollställa (börja om) när du vunnit
-Självförklarande?
+Självförklarande.
 
-### Behåll high (low) score mellan körningarna
+### Behåll resultatet mellan omstarterna
 Vad är lägsta antalet gissningar hittills?
 Visa på sidan.
 
-### Använd LocalStorage för att spara scores även när du stängt ner browsern
+### Använd LocalStorage för att spara resultat även när du startar om browsern
 Just nu nollställs allt varje gång du refreshar sidan.
 
 Läs på om hur du kan använda [LocalStorage](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/) för att spara data i browsern även när du stängt ner den.
