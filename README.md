@@ -148,11 +148,15 @@ Anropa den efter varje gissning.
 
 :tada: :tada: :tada:
 
-Grattis! Nu är den grundläggande logiken på plats. Men det finns massor av saker att fördjupa sig i.
+Grattis! Nu är den grundläggande logiken på plats.
 
-**Innan du fördjupar dig:**
-1. Kolla med din studiegrupp ifall det är någon som behöver hjälp / fastnat
+````
+Innan du fördjupar dig:
+
+1. Kolla med din studiegrupp ifall det är någon som fastnat
+   
 2. Om det är något du själv är osäker på, lyft till diskussion med din grupp.
+````
 
 Här följer ett gäng förslag på fördjupningar i en ungefärlig ökande svårighetsgrad.
 
