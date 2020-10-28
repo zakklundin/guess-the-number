@@ -1,1 +1,1 @@
-// Start writing your javascript here!
+// Read instructions. And remove this line.
