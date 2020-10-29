@@ -1,11 +1,11 @@
 # Guess the Number
 
 ## Innan du börjar
-I den här uppgiften ska du bygga ut en sida där man gissar efter ett nummer. Du kanske har gjort en liknande uppgift förut, men strunt samma. Nu kör vi igen!
+**I den här uppgiften ska du bygga ut en sida där man gissar efter ett nummer.** Du kanske har gjort en liknande uppgift förut, men strunt samma. Nu kör vi igen!
 
 - Börja med att starta *Go Live* och kolla in sidan i nuläget.
 - Kolla igenom `index.html`. Vilka element finns och vad har de för id:n?
-- **Pusha till ditt github-repo efter varje framsteg!**
+- Pusha till ditt github-repo efter varje framsteg
 
 ## Uppgifter för alla
 
