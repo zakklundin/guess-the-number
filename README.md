@@ -12,10 +12,10 @@ I den här uppgiften ska du bygga ut en sida där man gissar efter ett nummer. D
 ## Uppgifter för alla
 
 ### 1. Generera ett hemligt random tal
-Vi behöver en funktion som ger ett random heltal (integer).
-Skriv en funktion `randomInt()` som returnerar ett **heltal mellan 0 och 20**.
+Vi börjar genom att skapa en funktion som genererar slumpmässiga heltal.
+Skriv en funktion `randomInt()` som returnerar ett **heltal mellan 0 och 20**. (*int* syftar på *integer* vilket betyder heltal)
 
-Kom ihåg att testa att den fungerar!
+Kom ihåg att testa, t.ex. såhär:
 ````javascript
     console.log(randomInt()) // 15
     console.log(randomInt()) // 3
@@ -57,7 +57,7 @@ Skriv istället `randomInt(n)` som returnerar ett heltal mellan 0 och **n**.
 Skapa en global variabel `secretNumber` och sätt värdet till random tal med hjälp av funktionen du just skapat.
 
 ### 2. Hämta ut användarens gissning
-Skriv en funktion `getUserGuess` som returnerar det nummer som användaren skrivit i input-fältet.
+Nästa steg blir att skapa en funktion som returnerar det nummer som användaren skrivit i input-fältet. Kalla den `getUserGuess`.
 
 <details>
 <summary>Ledtråd 1</summary>
@@ -81,13 +81,14 @@ function getUserGuess() {
 ````
 </details>
 
-Kom ihåg att testa att den funkar!
+Testa att den fungerar innan du fortsätter!
 
-### 3. Hämta ut värdet när användaren trycker på ENTER
-Vi har inga knappar på den här sidan. Vi vill att något ska hända när användaren trycker `Enter`.
+### 3. Hämta ut värdet när användaren trycker på Enter
+Vi har inga knappar på den här sidan. Istället vill vi användaren ska trycka `Enter` efter att den skrivit in en gissning.
 
-- Lägg till en event-listener direkt på dokumentet, som lyssnar efter `keyup`-eventet
-- Om användaren tryckt på `Enter`, logga ut den nuvarande gissningen (värdet i input-fältet) i consolen
+Börja med att lägga till en *event-listener* på dokumentet, som lyssnar efter `keyup`-event. Kolla ledtråden nedan om du är osäker.
+
+Gör så att gissningen skrivs ut i consolen när användaren trycker `Enter`.
 
 <details>
 <summary>Ledtråd 1</summary>
@@ -112,9 +113,12 @@ Vi har inga knappar på den här sidan. Vi vill att något ska hända när anvä
 </details>
 
 ### 4. Ge feedback till användaren
-Vi vill berätta för användaren om gissningen är för hög eller för låg.
+Nu kommer det allra viktigaste! Vi måste berätta för användaren om gissningen är för hög eller för låg.
 
-Skriv en funktion `setMessage(msg)` som sätter texten på message-elementet till argumentet till funktionen.
+Börja med att skapa en funktion `setMessage(msg)`, som bara sätter texten på message-elementet till argumentet som du skickar in.
+
+Så att t.ex. `setMessage("Too high!")` sätter meddelandet på sidan till `Too high!`.
+
 <details>
 <summary>Ledtråd 1</summary>
 
@@ -123,7 +127,7 @@ Skriv en funktion `setMessage(msg)` som sätter texten på message-elementet til
 ````
 </details>
 
-**Sätt nu lämpligt meddelande beroende på om användarens gissning är för hög, för låg eller rätt**
+Gör nu så att lämpligt meddelande sätts beroende på om användarens gissning är för hög, för låg eller om den är rätt.
 
 ````
 Too low!
@@ -132,7 +136,9 @@ You are correct!
 ````
 
 ### 5. Rensa användarens input
-Vi vill såklart att input-fältet ska rensas efter varje gissning. Skriv en funktion `clearInput` som rensar input-fältet.
+Sist, vi vill såklart att input-fältet ska rensas efter varje gissning. Skapa en funktion `clearInput` som rensar input-fältet.
+
+Anropa den efter varje gissning.
 
 <details>
 <summary>Ledtråd 1</summary>
@@ -142,13 +148,11 @@ Vi vill såklart att input-fältet ska rensas efter varje gissning. Skriv en fun
 ````
 </details>
 
-Anropa den efter varje gissning.
-
 ## Fördjupning
 
 :tada: :tada: :tada:
 
-Grattis! Nu är den grundläggande logiken på plats.
+Grattis! Nu är den grundläggande funktionaliteten på plats.
 
 ````
 Innan du fördjupar dig:
@@ -158,7 +162,7 @@ Innan du fördjupar dig:
 2. Om det är något du själv är osäker på, lyft till diskussion med din grupp.
 ````
 
-Här följer ett gäng förslag på fördjupningar i en ungefärlig ökande svårighetsgrad.
+Nedan följer ett gäng förslag på fördjupningar. Gör så många du hinner!
 
 ### Spara alla gissningar i en array
 Skapa en till global variabel `guesses` som är en tom array. Fyll på den med varje ny gissning.
