@@ -7,8 +7,6 @@ I den här uppgiften ska du bygga ut en sida där man gissar efter ett nummer. D
 - Kolla igenom `index.html`. Vilka element finns och vad har de för id:n?
 - **Pusha till ditt github-repo efter varje framsteg!**
 
-![Screenshot](assets/screenshot.png)
-
 ## Uppgifter för alla
 
 ### 1. Generera ett hemligt random tal
