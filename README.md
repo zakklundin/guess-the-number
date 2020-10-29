@@ -1,4 +1,4 @@
-# Guess the Number (the comeback)
+# Guess the Number
 
 ## Innan du börjar
 I den här uppgiften ska du bygga ut en sida där man gissar efter ett nummer. Du kanske har gjort en liknande uppgift förut, men strunt samma. Nu kör vi igen!
