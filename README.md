@@ -155,9 +155,7 @@ Grattis! Nu är den grundläggande funktionaliteten på plats.
 ````
 Innan du fördjupar dig:
 
-1. Kolla med din studiegrupp ifall det är någon som fastnat
-   
-2. Om det är något du själv är osäker på, lyft till diskussion med din grupp.
+Om det är något du själv är osäker på, gå in i Google Meet:en eller skriv på Google Chat. Ta chansen att fråga om det du är osäker på. Var modig!
 ````
 
 Nedan följer ett gäng förslag på fördjupningar. Gör så många du hinner!
