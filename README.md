@@ -11,7 +11,7 @@
 
 ### 1. Generera ett hemligt random tal
 Vi börjar genom att skapa en funktion som genererar slumpmässiga heltal.
-Skriv en funktion `randomInt()` som returnerar ett **heltal mellan 0 och 20**. (*int* syftar på *integer* vilket betyder heltal)
+Skriv en funktion `randomInt()` som returnerar ett **heltal mellan 0 och 100**. (*int* syftar på *integer* vilket betyder heltal)
 
 Kom ihåg att testa, t.ex. såhär:
 ````javascript
@@ -155,7 +155,8 @@ Grattis! Nu är den grundläggande funktionaliteten på plats.
 ````
 Innan du fördjupar dig:
 
-Om det är något du själv är osäker på, gå in i Google Meet:en eller skriv på Google Chat. Ta chansen att fråga om det du är osäker på. Var modig!
+1. Om det är något du själv är osäker på, gå in i Google Meet:en eller skriv på Google Chat. Ta chansen att fråga om det du är osäker på. Var modig!
+2. Fundera över vad som är bästa taktiken för att gissa rätt nummer mest så få gissningar som möjligt. Vad är taktiken? Om du inte kommer på, fundera på vad som skulle vara en riktigt dålig taktik.
 ````
 
 Nedan följer ett gäng förslag på fördjupningar. Gör så många du hinner!
