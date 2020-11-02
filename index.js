@@ -1,16 +1,28 @@
 function randomInt(n){
     return Math.floor(Math.random() * n) + 1
 }
-console.log(randomInt(100))
+
+const secretNumber = randomInt(100)
+console.log(secretNumber)
 
 function getUserGuess(){
     const inputValue = document.getElementById("user-input").value
     return parseInt(inputValue, 10)
-    //", 10" menar att det ska tolkas i basen 10
+    //", 10"-delen menar att det ska tolkas i basen 10
 }
+
 document.addEventListener("keyup", function (a){
     if (a.key === "Enter") {
-        const theGuess = getUserGuess()
-        console.log(theGuess)
-    }
+        if (secretNumber === getUserGuess()){
+            setMessage("Correct!")
+        } else if (secretNumber > getUserGuess()) {
+            setMessage("Too low!")
+        } else if (secretNumber < getUserGuess()){
+            setMessage("Too high!")
+        }
+        }
 })
+
+function setMessage(msg){
+    document.getElementById("message").innerText = msg
+}
