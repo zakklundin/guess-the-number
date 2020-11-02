@@ -20,7 +20,8 @@ function setMessage(msg){
 //en funktion som jämför gissningen och slump. nummer och skriver ett meddelande
 function checkIfEquals(){
     if (secretNumber === getUserGuess()){
-            setMessage("Correct!")
+            setMessage("Correct!"), 
+            document.getElementById("stats").innerText = "Antal gissningar " + (guesses.length + 1)
         } else if (secretNumber > getUserGuess()) {
             setMessage("Too low!")
         } else if (secretNumber < getUserGuess()){
