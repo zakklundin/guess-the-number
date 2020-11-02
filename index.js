@@ -6,7 +6,7 @@ const secretNumber = randomInt(100)
 console.log(secretNumber)
 
 function getUserGuess(){
-    const inputValue = document.getElementById("user-input").value
+    let inputValue = document.getElementById("user-input").value
     return parseInt(inputValue, 10)
     //", 10"-delen menar att det ska tolkas i basen 10
 }
@@ -20,6 +20,7 @@ document.addEventListener("keyup", function (a){
         } else if (secretNumber < getUserGuess()){
             setMessage("Too high!")
         }
+        document.getElementById("user-input").value = ""
         }
 })
 
