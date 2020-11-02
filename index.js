@@ -21,7 +21,7 @@ function setMessage(msg){
 function checkIfEquals(){
     if (secretNumber === getUserGuess()){
             setMessage("Correct!"), 
-            document.getElementById("stats").innerText = "Antal gissningar " + (guesses.length + 1)
+            document.getElementById("stats").innerText = "Number of guesses: " + (guesses.length + 1)
         } else if (secretNumber > getUserGuess()) {
             setMessage("Too low!")
         } else if (secretNumber < getUserGuess()){
@@ -39,10 +39,10 @@ document.addEventListener("keyup", function(a) {
     if (a.key === "Enter") {
         checkIfEquals()
         guesses.push(getUserGuess())
+        document.getElementById("gissningar").innerText = "Guesses: " + guesses
         clearInput()
     }
 })
 
 //försöker fördjupningen
 const guesses = []
-console.log(guesses)
