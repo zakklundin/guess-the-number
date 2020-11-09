@@ -38,7 +38,7 @@ function clearInput(){
 document.addEventListener("keyup", function(a) {
     if (a.key === "Enter") {
         checkIfEquals()
-        guesses.push(getUserGuess())
+        guesses.push(" " + getUserGuess())
         document.getElementById("gissningar").innerText = "Guesses: " + guesses
         clearInput()
     }
